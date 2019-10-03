@@ -28,6 +28,14 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+# SMTP Configurationshel
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'emergingaptech@gmail.com'
+EMAIL_HOST_PASSWORD = 'GODisable4000'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+
 # Application definition
 
 INSTALLED_APPS = [
