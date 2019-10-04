@@ -35,6 +35,7 @@ EMAIL_HOST_PASSWORD = 'GODisable4000'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
+SITE_ID = 1
 
 # Application definition
 
@@ -47,6 +48,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
     'taggit',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 ]
 
 MIDDLEWARE = [
